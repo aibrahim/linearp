@@ -1,6 +1,6 @@
 # linearp
 
-[![Build Status](https://travis-ci.org/aibrahim/linearp.svg?branch=master)](https://travis-ci.org/aibrahim/linearp)
+[![Build Status](https://travis-ci.org/aibrahim/linearp.svg?branch=master)](https://clojars.org/linearp)
 
 linearp is simple linear programming solver in clojure based on clp-java lib
 
