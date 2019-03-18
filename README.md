@@ -11,9 +11,23 @@ in your repl
 ```
 
 howto define simple decision variables?
+variables could be free without any lower and upper limits and should be declared as:
+```
+(def vars 
+  '((x1) 
+    (x2 0.0 100.0)))
+```
+
+or could be with only lower limit as:
 ```
 (def vars
-  '((x1 0.0 100.0)
+  '((x1 90.0))
+```
+
+or could be with both lower and upper limits as:
+```
+(def vars
+   '((x1 0.0 100.0)
     (x2 0.0 100.0)
     (x3 0.0 100.0)
     (x4 0.0 100.0)
@@ -37,8 +51,13 @@ howto define constraints?
 ```
 
 howto solve the problem?
+as minimization (the default)
 ```
  (solve vars objective constraints)
+```
+as maximization
+```
+(solve vars objective constraints :solve-as :max)
 ```
 
 Have fun :)
