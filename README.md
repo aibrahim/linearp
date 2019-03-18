@@ -1,6 +1,8 @@
 # linearp
 
-simple linear programming solver in clojure based on clp-java lib
+[![Build Status](https://travis-ci.org/aibrahim/linearp.svg?branch=master)](https://travis-ci.org/aibrahim/linearp)
+
+linearp is simple linear programming solver in clojure based on clp-java lib
 
 ## Examples
 example of blending problem which mentioned here https://pythonhosted.org/PuLP/CaseStudies/a_blending_problem.html
@@ -59,6 +61,11 @@ as maximization
 ```
 (solve vars objective constraints :solve-as :max)
 ```
+
+## License 
+Copyright © 2019 Abdullah Ibrahim
+
+Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
 
 Have fun :)
 
