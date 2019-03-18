@@ -5,7 +5,10 @@ simple linear programming solver in clojure based on clp-java lib
 ## Examples
 example of blending problem which mentioned here https://pythonhosted.org/PuLP/CaseStudies/a_blending_problem.html
 
-in your repl (use 'linearp.core)
+in your repl 
+```
+(use 'linearp.core)
+```
 
 howto define simple decision variables?
 ```
